@@ -27,6 +27,12 @@ export function InquiryForm() {
       return
     }
 
+    if (!supabase) {
+      setStatus('error')
+      setErrorMsg('상담 폼을 일시적으로 이용할 수 없습니다. 전화로 문의해 주세요.')
+      return
+    }
+
     setStatus('submitting')
     setErrorMsg('')
 
