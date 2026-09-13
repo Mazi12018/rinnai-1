@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "rinnai-yeongdeungpo",
+      "runtimeExecutable": "powershell.exe",
+      "runtimeArgs": ["-NoLogo", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "dev.ps1"],
+      "port": 5173
+    }
+  ]
+}
