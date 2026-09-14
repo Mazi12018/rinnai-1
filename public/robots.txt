@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://noven.vercel.app/sitemap.xml
+Sitemap: https://noven2026.vercel.app/sitemap.xml
